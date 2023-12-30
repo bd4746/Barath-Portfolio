@@ -1,0 +1,379 @@
+#ProfileImage
+{
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 0%;
+    
+    box-shadow: 0 0 10px 5px rgba(255,215,0, 0.7);
+    border: solid;
+    border-width: 2px;
+    border-color: gold;
+    cursor: none;
+}
+#About
+{
+    margin-top: 0%!important;
+    margin-bottom: 2%!important;
+    z-index: 3;
+}
+.name
+{
+    color: #010013;
+    font-size: 8rem ;
+    font-family: Handlee;
+}
+#Headline
+{
+    color: #010013;
+    font-size: 28px;
+    font-weight: 100;
+}
+.myinfo
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.EducationArea
+{
+    color: #010013;
+    padding: 5% 5%;
+    margin: 5% 5%;
+    display: grid;
+    width: 90%;
+    height:75%;
+    grid-template-rows: auto 1fr 1fr;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(130,130,130,0.5);
+    border-radius: 20px;
+}
+.EducationArea:hover
+{
+    box-shadow:0 1px 40px rgba(0, 0, 0, 0.3);
+    transform: scale(0.9,0.9);    
+}
+#JIIT
+{
+    grid: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subtitle
+{
+    color: rgb(130,130,130);
+}
+
+.logoedu
+{
+    width: 15vh;
+    margin-top: -125px;    
+}
+
+.mark{
+    width: 1180px;
+    justify-content: center;
+    height: 550px;
+    margin-top: -125px;
+}
+
+#EducationTitle
+{
+    grid: 1;
+    text-align: center;
+    color: #010013;
+    font-size: 3rem;
+}
+
+.outerBox
+{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    color: #444;
+    padding: 1%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.col
+{
+    background-color: #12154C;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 150%;
+    margin: 5px;
+    text-align: center;
+}
+.card {
+    font-size: 1.5rem;
+    font-stretch: semi-expanded;
+}
+.projarea
+{
+    background-color:rgb(231,231,231);
+}
+#Projects
+{
+    padding-top: 50px;
+    text-align: center;
+    color: #010013;
+    font-size: 3rem;
+}
+.ProjectIMG
+{
+    width: 75%;
+    border-radius: 5px;
+}
+.card1
+{   
+    grid: 1 ;
+}
+.card2
+{  
+    grid: 2;
+}
+.card:hover
+{
+    transform: rotate3d(1, 2, 3, 3deg);
+}
+
+
+#Certifications{
+    padding-top: 50px;
+    text-align: center;
+    color: #010013;
+    font-size: 3rem;
+}
+
+.certificate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.certificate-card {
+    width: 250px;
+    height: 100px;
+    background-color: #3498db; /* Set background color */
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.certificate-card:hover {
+    transform: scale(1.05);
+}
+
+.certificate-name {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #fff; /* Set text color */
+}
+
+#Clubs,#Memberships,#Coding_Profiles {
+    padding-top: 50px;
+    text-align: center;
+    color: #010013;
+    font-size: 3rem;
+}
+
+.clubs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.club-card {
+    width: 250px;
+    height: 180px;
+    background-color: #343a40; /* Set background color */
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.club-card:hover {
+    transform: scale(1.05);
+}
+
+.club-logo {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.club-info {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff; /* Set text color */
+    font-size: 18px;
+}
+
+.membership-card {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #007bff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 1000px;
+    color: #fff;
+}
+
+.organization-logo {
+    width: 700px; /* Adjust the size as needed */
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px; /* Optional margin for spacing */
+    border-radius: 50%; /* Make the logo circular */
+}
+
+.profile-card {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #28a745; /* Set background color */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    color: #fff;
+}
+
+.profile-logo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px; /* Optional margin for spacing */
+    border-radius: 50%; /* Make the logo circular */
+}
+
+.profile-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#Contact
+{
+    clear: both;
+    background-color: #353535;
+    box-shadow: 0 0 10px 5px black;
+    display: flex;
+    justify-content: space-evenly;
+}
+#INFO
+{
+    margin: 0% 5%;
+    padding: 2%;
+    color: white;   
+    font-weight: 500;
+}
+#INFO2
+{
+    margin: 0% 5%;
+    padding: 2%;
+    color: white;   
+    font-weight: 500;
+}
+#Fotter
+{
+    background-color: #FF7704;
+    color: whitesmoke;
+    text-align: center;
+}
+#Skills
+{
+    color: #010013;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}   
+#Buttons
+{
+    padding: 2%!important;
+    box-shadow: 0 0 20px 10px rgba(255,119,4, .5);
+    border-style: dotted;
+    border-color: #FF7704;
+    flex-wrap: wrap;
+}
+.btn
+{
+
+    color:white;
+    background-color: #1887C7;
+    box-shadow: 0 0 10px 5px rgb(28, 130, 173,0.7);
+    font-size: 1.5rem;
+    margin: 5px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.Socials
+{
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+li{
+    list-style-type: none;
+}
+#Plane{
+    width: 50px;
+    padding: 5px;
+}
+#mailing-text
+{
+    color: white;
+    font-size: 23px;
+    margin: 0px 5px;
+    font-weight: 900;
+}
+.mailfixed
+{
+    position: fixed;
+    right:20px;
+    bottom: 5%;
+    padding: 5px;
+    margin: 6px;
+    background-color: #FF7704;
+    width: 175px;
+    border-radius: 50px;
+    border: #12154C;
+    border-width: 1px;
+    border-style: solid;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    z-index: 1;
+}
+.mailfixed:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px rgb(28, 130, 173,0.7);   
+    transform: scale(1.1,1.1);
+}
